@@ -1,0 +1,71 @@
+
+.mac.nosidebar:not(.sidebar-right):not(.fullscreen) .inline-tabs-placeholder {
+    padding-left: calc(var(--traffic-X) + 8px);
+}
+.statusbar #status\\.host {
+    display: block !important;
+    width: calc(var(--activity-bar-action-size)px);
+    height: 18px;
+    margin: 6px;
+    border-radius: 30px;
+}
+.monaco-dialog-modal-block {
+    border-radius: 6px;
+}
+.monaco-text-button {
+    border-radius: 6px;
+}
+.monaco-inputbox {
+    border-radius: 6px;
+}
+.suggest-input-container {
+    border-radius: 6px;
+}
+.editor-widget {
+    border-radius: 8px !important;
+}
+.editor-widget > .monaco-sash {
+    display: none;
+}
+.monaco-hover {
+    border-radius: 6px !important;
+}
+.scrollbar.horizontal {
+    height: 6px !important;
+}
+.vertical > .slider {
+    width: 6px !important;
+}
+.slider {
+    border-radius: 6px;
+}
+.quick-input-widget {
+    box-shadow: 0 20px 100px rgba(0, 0, 0, 0.4);
+    border-radius: 13px ;
+    padding: 10px 15px 0px 15px;
+    margin-top: 10%;
+    animation: all 0.3s ;
+}
+
+/*Expolador animacion*/
+@keyframes slideIn {
+    from {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.quick-input-header {
+    margin-bottom: 10px;
+}
+.suggest-widget {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+}
+.suggest-details {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+}
+

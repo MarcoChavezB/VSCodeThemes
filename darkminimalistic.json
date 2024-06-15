@@ -2,7 +2,8 @@
     "workbench.startupEditor": "newUntitledFile",
     "editor.fontSize": 15,
     "editor.guides.indentation": false,
-    "editor.lineHeight": 3.5,
+    "editor.lineHeight": 3,
+    "editor.lineNumbers": "off",
     "javascript.suggest.autoImports": true,
     "extensions.ignoreRecommendations": true,
     "typescript.tsserver.log": "off",
@@ -15,14 +16,6 @@
         ".prettierrc": "json",
         "*.css": "css"
     },
-    "symbols.files.associations": {
-        "*.module.ts": "nest",
-        "*.guard.ts": "typescript",
-        "*.spec.ts": "ts-test",
-        "*.e2e-spec.ts": "ts-test",
-        "vitest.config.e2e.ts": "vite",
-        ".env.example": "gear"
-    },
     "tailwindCSS.experimental.classRegex": [
         [
             "tv\\(([^)]*)\\)",
@@ -30,7 +23,6 @@
         ]
     ],
     "editor.parameterHints.enabled": false,
-    "cSpell.language": "en,pt",
     "typescript.updateImportsOnFileMove.enabled": "always",
     "editor.suggestSelection": "first",
     "explorer.confirmDelete": false,
@@ -47,25 +39,6 @@
     "emmet.syntaxProfiles": {
         "javascript": "jsx"
     },
-    "cSpell.enableFiletypes": [
-        "!asciidoc",
-        "!c",
-        "!cpp",
-        "!csharp",
-        "!go",
-        "!handlebars",
-        "!haskell",
-        "!jade",
-        "!java",
-        "!latex",
-        "!php",
-        "!pug",
-        "!python",
-        "!restructuredtext",
-        "!rust",
-        "!scala",
-        "!scss"
-    ],
     "editor.acceptSuggestionOnCommitCharacter": false,
     "explorer.compactFolders": false,
     "git.enableSmartCommit": true,
@@ -74,14 +47,8 @@
     "editor.codeActionsOnSave": {
         "source.fixAll.eslint": "explicit"
     },
-    "eslint.validate": [
-        "javascript",
-        "javascriptreact",
-        "graphql"
-    ],
     "editor.semanticHighlighting.enabled": false,
-    "workbench.productIconTheme": "fluent-icons",
-    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontFamily": "JetBrainsMono NF",
     "gitlens.codeLens.authors.enabled": false,
     "security.workspace.trust.untrustedFiles": "newWindow",
     "files.exclude": {
@@ -91,7 +58,6 @@
         "**\/.svn": true,
         "**\/.git": true,
         ".vscode": true
-        // "node_modules": true
     },
     "update.mode": "start",
     "[jsonc]": {
@@ -102,7 +68,6 @@
     },
     "window.commandCenter": false,
     "git.openRepositoryInParentFolders": "always",
-    "symbols.hidesExplorerArrows": false,
     "[javascript]": {
         "editor.defaultFormatter": "vscode.typescript-language-features"
     },
@@ -119,72 +84,6 @@
         ".env": ".env*"
     },
     "explorer.fileNesting.enabled": true,
-    "cSpell.userWords": [
-        "bootcamp",
-        "Cabo",
-        "chakra",
-        "checkin",
-        "checkins",
-        "clsx",
-        "Codegen",
-        "Cortez",
-        "datadog",
-        "Datetime",
-        "dayjs",
-        "Dotenv",
-        "Elysia",
-        "esbuild",
-        "fastify",
-        "Fastify",
-        "feedbackwidget",
-        "ffprobe",
-        "Hasher",
-        "Hono",
-        "ilike",
-        "IUGU",
-        "jamjuree",
-        "jupiter",
-        "liveblocks",
-        "LIVEBLOCKS",
-        "Marguerita",
-        "middlewares",
-        "mixpanel",
-        "monaco",
-        "nestjs",
-        "omni",
-        "Omni",
-        "Onboarded",
-        "pallas",
-        "postgres",
-        "postgresql",
-        "prefetch",
-        "reactflow",
-        "roboto",
-        "rocketseat",
-        "rotion",
-        "rsxp",
-        "Sandpack",
-        "shiki",
-        "skylab",
-        "sqlite",
-        "supergraph",
-        "svgr",
-        "sympla",
-        "tailwindcss",
-        "textblock",
-        "tiptap",
-        "trpc",
-        "TRPC",
-        "tsup",
-        "unfollow",
-        "Unfollow",
-        "unform",
-        "Unform",
-        "unmark",
-        "upsert",
-        "Usuario",
-        "WEBPUSH"
-    ],
     // cursor configuration
     "editor.cursorBlinking": "smooth",
     "editor.cursorSmoothCaretAnimation": "on",
@@ -193,18 +92,6 @@
     "editor.cursorSurroundingLinesStyle": "all",
     "editor.cursorWidth": 2,
     "workbench.statusBar.visible": false,
-    // vs code normal theme
-    "workbench.colorCustomizations": {
-        "editor.background": "#1a1a1a",
-        "editorIndentGuide.activeBackground1": "#0000",
-        "sideBar.background": "#1a1a1a",
-        "editorGutter.background": "#1a1a1a",
-        "editorSuggestWidget.background": "#1a1a1a",
-        "editorSuggestWidget.border": "#1a1a1a",
-        "sideBar.border": "#1a1a1a",
-        "editor.selectionBackground": "#323232",
-        "editor.lineHighlightBackground": "#1a1a1a",
-    },
     "editor.tokenColorCustomizations": {
         "textMateRules": [
             {
@@ -222,47 +109,16 @@
     // terminal configuration 
     "terminal.integrated.gpuAcceleration": "off",
     "terminal.integrated.defaultProfile.osx": "fish",
-    "terminal.integrated.fontSize": 15,
+    "terminal.integrated.fontSize": 14,
     "terminal.integrated.fontFamily": "FiraCode Nerd Font Mono",
     "terminal.integrated.env.osx": {
         "FIG_NEW_SESSION": "1"
     },
     "terminal.integrated.showExitAlert": false,
-    // apc configuration
-    "apc.activityBar": {
-        "position": "bottom",
-        "hideSettings": true,
-        "size": 48,
-        "itemMargin": 8,
-        "itemSize": 32
-    },
     "workbench.editor.showTabs": "single",
     "editor.hideCursorInOverviewRuler": true,
     "editor.minimap.enabled": false,
-    "apc.electron": {
-        "titleBarStyle": "hiddenInset",
-        "trafficLightPosition": {
-            "x": 11,
-            "y": 10
-        },
-        "frame": false
-    },
-    "apc.header": {
-        "height": 36
-    },
-    "apc.listRow": {
-        "height": 24
-    },
-    "apc.stylesheet": {
-        ".title-label > h2": "display: none",
-        ".editor-actions": "display: none",
-        ".nosidebar .inline-tabs-placeholder": "width: 75px",
-        ".pane-header": "padding: 0 8px",
-        ".pane-body": "padding: 8px",
-        ".split-view-view:first-child .pane-header": "display: none !important;",
-        ".monaco-list-row": "border-radius: 4px;",
-        ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "display: none;"
-    },
+    "window.customTitleBarVisibility": "never",
     "workbench.tree.renderIndentGuides": "none",
     "workbench.layoutControl.enabled": false,
     "terminal.integrated.env.windows": {},
@@ -271,14 +127,13 @@
     "editor.wrappingIndent": "none",
     "workbench.tree.indent": 4,
     "editor.detectIndentation": false,
-    "workbench.editor.enablePreview": false,
+    "workbench.editor.enablePreview": true,
     "editor.stickyScroll.enabled": false,
     "editor.renderWhitespace": "none",
     "editor.renderControlCharacters": false,
     "window.menuBarVisibility": "toggle",
     "terminal.integrated.env.linux": {},
     "workbench.activityBar.location": "hidden",
-    "glassit.alpha": 220,
     "scm.inputFontSize": 15,
     "github.copilot.enable": {
         "*": true,
@@ -286,34 +141,32 @@
         "markdown": false,
         "scminput": false
     },
-    "mdb.confirmDeleteDocument": false,
     "errorLens.enabled": true,
     "splitHTMLAttributes.closingBracketOnNewLine": true,
-    "splitHTMLAttributes.sortOrder": [
-        "^v-if",
-        "^v-else",
-        "^v-show",
-        "^v-model",
-        "^v-for",
-        "^:key",
-        "^key",
-        "^v-",
-        "^:",
-        "^@click",
-        "^@",
-        "^id",
-        "^class",
-        "^.*=\""
-    ],
-    "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Maron Theme: Beyond The Fog",
-    "[vue]": {
-        "editor.defaultFormatter": "Vue.volar"
-    },
+    "workbench.iconTheme": "icons",
     "[typescript]": {
         "editor.defaultFormatter": "vscode.typescript-language-features"
     },
-    "window.customTitleBarVisibility": "auto",
     "gitlens.plusFeatures.enabled": false,
     "github.copilot.editor.enableAutoCompletions": true,
+    // vs code normal theme
+    "workbench.colorCustomizations": {
+        "editor.background": "#0F0F0F",
+        "editorIndentGuide.activeBackground1": "#0F0F0F",
+        //  "sideBar.background": "#0F0F0F",
+        "editorGutter.background": "#0F0F0F",
+        "editorSuggestWidget.background": "#0F0F0F",
+        "editorSuggestWidget.border": "#0F0F0F",
+        "sideBar.border": "#0F0F0F",
+        "editor.selectionBackground": "#323232",
+        "editor.lineHighlightBackground": "#0F0F0F",
+    },
+    
+
+    "vscode_custom_css.imports": [
+        "file:///home/marco/.config/Code/User/customvscode.css",
+        "file:///home/marco/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.3/dist/updateHandler.js"
+    ],
+    "workbench.colorTheme": "vxcode-dark",
+    
 }
